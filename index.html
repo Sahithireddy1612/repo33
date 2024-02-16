@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        @media screen and (min-width: 200px) and (max-width:300px){
+            .a{
+                background-color: aqua;
+            }
+        }
+            @media screen and (min-width: 301px) and (max-width:400px){
+            .a{
+                background-color: orange;
+            }
+        }
+        @media screen and (min-width: 401px) and (max-width:500px){
+            .a{
+                background-color: skyblue;
+            }
+        }
+        @media screen and (min-width: 501px) and (max-width:600px){
+            .a{
+                background-color: fuchsia;
+            }
+        }
+        @media screen and (min-width: 601px) and (max-width:700px){
+            .a{
+                background-color: purple;
+            }
+        }
+        @media screen and (min-width: 701px) and (max-width:800px){
+            .a{
+                background-color: pink;
+            }
+        }
+        .keys{
+            width: 500px;
+            height: 200px;
+            
+            /* display: grid;
+            grid-template-columns: repeat(4,80px);
+            gap: 10px;
+          grid-template-rows: 60px; */
+            /* grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2; */
+
+
+        }
+        .a{
+            display: grid;
+            grid-template-columns: repeat(4,80px);
+            border: 2px solid black;
+            padding: 30px;
+            gap: 10px;
+    
+          grid-template-rows: 60px;
+         
+            /* grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2; */
+
+        
+
+        }
+        .a1{
+            grid-column-start: 4;
+            grid-column-end: 1;
+            grid-row-start: 3;
+            grid-row-end: 3;
+            background-color: brown;
+
+            
+            /* grid-row-start: 1; */
+            /* grid-row-end: 2; */
+
+        }
+        .a2{
+            grid-column-start: 4;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: brown;
+            
+        }
+        .a3{
+            grid-column-start: 3;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: brown;
+            
+        
+
+        }
+        .a4{
+            grid-column-start: 3;
+            grid-column-start: 3;
+            grid-row-start: 4;
+            grid-row-end: 4;
+            background-color: brown;
+        }
+        .a5{
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 4;
+            background-color: brown;
+        }
+        .a6{
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 2;
+            background-color: brown;
+        }
+        .a7{
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 6;
+            background-color: brown;
+        }
+        .a8{
+            grid-column-start: 3;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: 4;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="keys">
+        <div class="a">
+        <div class="a a1"><img src="../CSSPRACTICE/dp1.jpeg" width="120px" height="70px"/></div>
+        <div class="a a2"><img src="../CSSPRACTICE/dp2.jpeg" width="130px" height="70px"/></div>
+        <div class="a a3"><img src="../CSSPRACTICE/dp15.jpeg" width="60px" height="150px" style="margin-left: -20px;"/></div>
+        <div class="a a4"><img src="../CSSPRACTICE/dp16.jpeg" width="50px" height="100px" style="margin-left: -20px; margin-top: -10px;"/></div>
+         <div class="a a5"><img src="../CSSPRACTICE/dp17.jpeg" width="60px" height="100px" style="margin-left: -20px; margin-top: -10px;"/></div>
+         <div class="a a6"><img src="../CSSPRACTICE/dp18.jpeg" width="60px" height="200px" style="margin-left: -20px;"/></div>
+        <div class="a a7"><img src="../CSSPRACTICE/dp19.jpeg" width="60px" height="200px" style="margin-left: -20px;"/></div>
+        <div class="a a8"><img src="../CSSPRACTICE/dp20.jpeg" width="70px" height="100px" style="margin-left: -30px; margin-top: -20px;"/></div>
+        </div>
+    </div>
+</body>
+</html>
